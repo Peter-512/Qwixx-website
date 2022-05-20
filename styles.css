@@ -1,3 +1,169 @@
 body{
-    background-color: coral;
+     background-image:url("resources/background.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: url("resources/cursor.cur"),auto;
+}
+
+a {
+    text-decoration: none;
+    color: #2b468b;
+}
+a:hover {
+    color: #dbeaff;
+}
+
+a:active {
+    color: blue;
+}
+
+li {
+    margin: 15px 10px;
+    display:inline;
+}
+
+.current_page{
+    box-shadow: 0 1px 10px 0 #fff3e1, inset 0 1px 20px 20px #fff3e169;
+    border-bottom: black;
+    border-style: inset;
+}
+
+.button{
+    height: 3rem;
+    width: 9rem;
+    border: 3px solid deepskyblue;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+.button::before,
+.button::after{
+    content: '';
+    position:absolute;
+    width: 48px;
+    height: 48px;
+    border: inherit;
+    transition: 0.5s ease;
+}
+
+.button::before{
+    left: -15px;
+    top:-15px;
+    border-width: 3px 0 0 3px;
+}
+
+.button::after{
+    right: -15px;
+    bottom:-15px;
+    border-width: 0 3px 3px 0;
+}
+
+.button:hover::after,
+.button:hover::before{
+    width:calc(100% + 27px);
+    height: calc(100% + 27px);
+}
+
+
+
+
+
+
+
+
+
+/*header*/
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px;
+}
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+}
+.logo{
+    margin-right: 50px;
+}
+.nav-bar{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+#toggler,
+.nav label{
+    display: none;
+}
+
+@media screen and(max-width: 991px) {
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .nav-bar{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .nav label{
+        display: inline-flex;
+        align-items: center;
+
+    }
+
+    #toggler:checked ~ .menu{
+        max-height: 100%;
+    }
+
+}
+
+/*Home page*/
+.info_main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px 0 0 0;
+    margin:150px 0 0 0;
+    box-shadow: 0 -5px 20px 11px #595f77;
+    background-color:#fff3e1;
+}
+.info{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin:15px;
+    padding: 20px;
+
+}
+
+.game{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin:30px;
+    height: 385px;
+    width: 469px;
+}
+
+/*About us*/
+
+.about_us{
+    perspective: 800px;
+}
+.team{
+    width: 150px;
+    height:200px;
+
 }
