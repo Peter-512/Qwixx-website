@@ -6,22 +6,21 @@
 		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Qwixx</title>
-	<link rel="icon" type="favicon" href="resources/favicon.jpg">
+	<link rel="icon" type="favicon" href="resources/logo2.png">
 	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/7800fa5375.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
 <header>
-	   <nav class="nav">
-		   <img class="logo" src="resources/logo.jpg" alt="logo">
-		   <input type="checkbox" id="toggler">
+	   <nav class="navbar">
+		   <img class="logo" src="resources/logo2.png" alt="logo">
 		   <div class="menu">
-			   <ul class="nav-bar">
-				   <li class="current page"><a href="index.html">Home</a></li>
-				   <li><a href="#"></a>About Game</li>
-				   <li><a href="#"></a>Download</li>
-				   <li><a href=""></a>About Us</li>
-				   <li><a href="#"></a>Game Statistics</li>
+			   <ul class="list">
+				   <li class="current_page"> <a href="index.html"> <button class="button" value="Home"> Home</button> </a> </li>
+				   <li> <a href="pages/game.html"> <button class="button" value="About"> Game</button> </a> </li>
+				   <li> <a href="#"> <button class="button" value="Home"> Game Statistics</button> </a> </li>
+				   <li> <a href="pages/about_us.html"> <button class="button" value="Home"> About Us</button> </a> </li>
 			   </ul>
 		   </div>
 
@@ -37,7 +36,7 @@
 			   We created a version where you can easily download and play right away on your computer.
 			   We wish you best of luck!
 			   <br><br> To Download Now!!
-			   <br><br> <a href="#"><button class="button" type="Download" value="download" href="#"></button>></a>
+			   <br><br> <a href="pages/game.html"><button class="button" type="Download" value="download" href="">Download</button></a>
 		   </p>
 		  </div>
 
@@ -52,7 +51,10 @@
 </main>
 <footer>
 	<div class="copyright">
-		<p>&copy;Group 8</p>
+		<p>&copy;Group 8 <br> <br>
+			<a href="https://gitlab.com/kdg-ti/integration-1.2/2021-2022/team-8/qwixx.git"><i class="fa fa-gitlab" ></i></a>
+			<a href="pages/about_us.html"><i class="fa fa-info-circle"></i></a>
+		</p>
 	</div>
 </footer>
 </body>

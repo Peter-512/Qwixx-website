@@ -4,39 +4,59 @@
     <meta charset="UTF-8">
     <title>About Us</title>
     <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="favicon" href="../resources/logo2.png">
+    <script src="https://kit.fontawesome.com/7800fa5375.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
+<header>
+    <nav class="navbar">
+        <img class="logo" src="../resources/logo2.png" alt="logo">
+        <div class="menu">
+            <ul class="list">
+                <li > <a href="../index.html"> <button class="button" value="Home"> Home</button> </a> </li>
+                <li> <a href="game.html"> <button class="button" value="Home"> Game</button> </a> </li>
+                <li> <a href="#"> <button class="button" value="Home"> Game Statistics</button> </a> </li>
+                <li class="current_page"> <a href="about_us.html"> <button class="button" value="Home"> About Us</button> </a> </li>
+            </ul>
+        </div>
 
+    </nav>
+</header>
 <main>
-    <header>
-        <nav class="nav">
-            <img class="logo" src="resources/logo.jpg" alt="logo">
-            <input type="checkbox" id="toggler">
-            <div class="menu">
-                <ul class="nav-bar">
-                    <li ><a href="../index.html">Home</a></li>
-                    <li><a href="#"></a>About Game</li>
-                    <li><a href="download.html"></a>Download</li>
-                    <li class="current page"><a href="../pages/about_us.html"></a>About Us</li>
-                    <li><a href="#"></a>Game Statistics</li>
-                </ul>
-            </div>
 
-        </nav>
-    </header>
-    <section class="about_us">
-        <figure class="team">
-            <img
-                    class="team_member" src="../resources/peter.jpeg" alt="peter">
-            <p class="team_member">Loremm epsumm</p>
+    <section class="container">
+<!--        <h1>Hover for more</h1>-->
+        <figure class="card">
+            <img class = "team_member" src="../resources/peter.jpeg" alt="peter">
+            <p class="team_member">Lorem epsumm</p>
         </figure>
+
+        <figure class="card">
+            <img class = "team_member" src="../resources/nova.jpg" alt="nova">
+            <p class="team_member">Lorem epsumm</p>
+        </figure>
+
+        <figure class="card">
+            <img class = "team_member" src="../resources/brandon.jpeg" alt="brandon">
+            <p class="team_member">Lorem epsumm</p>
+        </figure>
+
+        <figure class="card">
+            <img class = "team_member" src="../resources/nova_d.jpeg" alt="nova_d">
+            <p class="team_member">Lorem epsumm</p>
+        </figure>
+
     </section>
 
 
 </main>
 <footer>
     <div class="copyright">
-        <p>&copy;Group 8</p>
+        <p>&copy;Group 8 <br> <br>
+            <a href="https://gitlab.com/kdg-ti/integration-1.2/2021-2022/team-8/qwixx.git"><i class="fa fa-gitlab" ></i></a>
+            <a href="../pages/about_us.html"><i class="fa fa-info-circle"></i></a>
+        </p>
     </div>
 </footer>
 
