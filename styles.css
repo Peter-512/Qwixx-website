@@ -115,11 +115,14 @@ h6{
     flex-wrap: wrap;
     gap: 25px;
     background-color: #f2e5dc;
+    background-image: url("https://media0.giphy.com/media/U3qYN8S0j3bpK/giphy.gif?cid=ecf05e47f1c1b36712e2d00d6dd29a323ab0f8ba2e6f9523&rid=giphy.gif&ct=g");
+
     align-items: center;
 }
 .logo{
     box-shadow: 0px 0px 7px 6px #372764;
     border-style: double;
+    background-image: url("https://media0.giphy.com/media/U3qYN8S0j3bpK/giphy.gif?cid=ecf05e47f1c1b36712e2d00d6dd29a323ab0f8ba2e6f9523&rid=giphy.gif&ct=g");
 }
 .menu{
     box-shadow: 6px 2px 20px 1px #775ca9;
@@ -139,6 +142,8 @@ h6{
     padding: 40px 0 0 0;
     margin:150px 0 0 0;
     box-shadow: 0px 1px 20px 9px #3d2e6b;
+
+    background-image: url("https://media4.giphy.com/media/9bTjZrytydVRK/giphy.gif?cid=ecf05e479nv4mrv7e2b65f994z45mmd0ja8gwwmtz5d18oaf&rid=giphy.gif&ct=g");
     border-style: inset;
 }
 
@@ -181,6 +186,7 @@ h6{
     padding: 40px 0 0 0;
     margin:150px 0 0 0;
     box-shadow: 0px 1px 20px 9px #3d2e6b;
+    background-image: url("https://media4.giphy.com/media/9bTjZrytydVRK/giphy.gif?cid=ecf05e479nv4mrv7e2b65f994z45mmd0ja8gwwmtz5d18oaf&rid=giphy.gif&ct=g");
     border-style: inset;
 
 }
@@ -264,11 +270,14 @@ h6{
     padding: 75px 0 75px 0;
     margin:120px 0 100px 0;
     box-shadow: 0px 1px 20px 20px #4b3c76;
+
+
 }
 .hey{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .cards{
