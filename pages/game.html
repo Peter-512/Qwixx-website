@@ -5,18 +5,20 @@
     <title>Game</title>
     <link rel="stylesheet" href="../styles.css">
     <link rel="icon" type="favicon" href="../resources/logo2.png">
+    <link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7800fa5375.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header>
+    <a class="login" href="../pages/login.html">Login / Sign In</a>
     <nav class="navbar">
         <img class="logo" src="../resources/logo2.png" alt="logo">
         <div class="menu">
             <ul class="list">
                 <li > <a href="../index.html"> <button class="button" value="Home"> Home</button> </a> </li>
-                <li  class="current_page"> <a href="game.html"> <button class="button" value="Home"> Game</button> </a> </li>
-                <li> <a href="#"> <button class="button" value="Home"> Game Statistics</button> </a> </li>
-                <li > <a href="about_us.html"> <button class="button" value="Home"> About Us</button> </a> </li>
+                <li  class="current_page"> <a href="game.html"> <button class="button" value="Game"> Game</button> </a> </li>
+                <li> <a href="../pages/game_statistics.html"> <button class="button" value="Game Statistics"> Game Statistics</button> </a> </li>
+                <li > <a href="about_us.html"> <button class="button" value="About Us"> About Us</button> </a> </li>
             </ul>
         </div>
 
@@ -25,11 +27,11 @@
 <main>
     <section class="game_rules">
         <div class="object">
-            <h1>Object of the game</h1><br>
+            <h2>Object of the game</h2><br>
             <h4>Score the most points by crossing out as many numbers in the four color-rows as possible while avoiding penalty points.</h4>
         </div>
         <div class="rules">
-            <h1>Game Play</h1>
+            <h2>Game Play</h2>
             <ul class="rule">
             <li >The first player to roll a 6 takes on the role of "active player". The active player rolls all six dice. The following two actions are now carried out in order,
                 always one after the other:<br>
@@ -39,7 +41,7 @@
             <li>
                 The active player (but not the others) can then add one of the white dice to any of the colored dice and cross off the number corresponding to this total in the color-row corresponding to the color of the chosen die.
             </li>
-                <h1>Penalties</h1>
+                <h2>Penalties</h2>
                 <li>If the active player does not cross out at least one number after the two acts, he must cross out one of the penalty boxes. At the end of the game, each penalty box is worth -5 points.
                     (Non-active players do not receive a penalty for not crossing out a number.)</li>
                 <h1>Locking a Row</h1>
@@ -48,7 +50,7 @@
                     If you cross out the number on the far right, you must also cross out the lock symbol immediately adjacent to it. This means that the color-row is now locked for all participants, and that numbers in this color may no longer be crossed out in subsequent rounds.
                     The relevant color die is removed from the game right away.
                 </li>
-                <h1>PS...</h1>
+                <h2>PS...</h2>
                 <li>
                     If a row is locked during the initial action, additional players could cross out the number on the extreme right and lock the same color-row at the same time.
                     These players must have crossed out at least five digits in that row earlier.
@@ -59,7 +61,7 @@
 
         </div>
         <div class="insight">
-            <h1> Insights from our game;</h1>
+            <h2> Insights from our game;</h2>
         <div id="slideshow">
             <div class="slide-wrapper ">
             <div><img class="slide" src="../resources/1.png" alt=""> </div>
