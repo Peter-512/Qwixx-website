@@ -25,15 +25,25 @@ a:active {
 li {
     margin: 30px 30px;
     font-size: large;
+
 }
 h1{
     font-size: 60px;
+    color: #f2e5dc;
 }
 h2{
     font-size: 40px;
+    color: #f2e5dc;
+
 }
+h3{
+    font-size: 35px;
+}
+
 h6{
     font-size: 20px;
+    color: #f2e5dc;
+
 }
 
 .current_page{
@@ -192,7 +202,7 @@ h6{
 }
 .object{
     background: #f2e5dc;
-    box-shadow: 6px 2px 20px 1px #9192bd;
+    box-shadow: 6px 2px 20px 1px #3d2e6b;
     margin: 58px;
     padding: 41px;
     border-style: double;
@@ -204,7 +214,7 @@ h6{
     flex-wrap: wrap;
     align-items: center;
     background: #f2e5dc;
-    box-shadow: 6px 2px 20px 1px #9192bd;
+    box-shadow: 6px 2px 20px 1px #3d2e6b;
     margin: 58px;
     padding: 41px;
     border-style: double;
@@ -216,7 +226,7 @@ h6{
     flex-direction: column;
     flex-wrap: wrap;
     background: #f2e5dc;
-    box-shadow: 6px 2px 20px 1px #9192bd;
+    box-shadow: 6px 2px 20px 1px #3d2e6b;
     margin: 58px;
     padding: 41px;
     border-style: double;
@@ -270,7 +280,7 @@ h6{
     padding: 75px 0 75px 0;
     margin:120px 0 100px 0;
     box-shadow: 0px 1px 20px 20px #4b3c76;
-
+    background-image: url("https://media4.giphy.com/media/9bTjZrytydVRK/giphy.gif?cid=ecf05e479nv4mrv7e2b65f994z45mmd0ja8gwwmtz5d18oaf&rid=giphy.gif&ct=g");
 
 }
 .hey{
