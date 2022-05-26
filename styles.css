@@ -272,8 +272,6 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /*padding: 75px 0 75px 0;*/
-    /*margin: 120px 0 100px 0;*/
     box-shadow: 0 1px 20px 7px #4b3c76;
     background-image: url("https://media2.giphy.com/media/Y3MLVPRtnzpbygOqef/giphy.gif?cid=ecf05e47zv7yfqusa7a98ntsmbe6nbr54r7copj296xa5cxn&rid=giphy.gif&ct=g");
     background-repeat: no-repeat;
@@ -302,6 +300,7 @@ body {
     transform-style: preserve-3d;
     position: relative;
     transition: transform .75s;
+    -moz-transition: tranform .075s;
 cubic-bezier(0.4, 0.03, 0.5, 0.9);
 }
 
