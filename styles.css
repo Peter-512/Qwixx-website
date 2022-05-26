@@ -25,7 +25,6 @@ a:active {
 li {
     margin: 30px 30px;
     font-size: large;
-
 }
 
 h1 {
@@ -36,7 +35,6 @@ h1 {
 h2 {
     font-size: 40px;
     color: #f2e5dc;
-
 }
 
 h3 {
@@ -46,7 +44,6 @@ h3 {
 h6 {
     font-size: 20px;
     color: #f2e5dc;
-
 }
 
 .current_page {
@@ -115,8 +112,6 @@ h6 {
     flex-direction: column;
     justify-content: space-between;
     padding: 15px;
-
-
 }
 
 .navbar a {
@@ -131,7 +126,6 @@ h6 {
     gap: 25px;
     background-color: #f2e5dc;
     background-image: url("https://media0.giphy.com/media/U3qYN8S0j3bpK/giphy.gif?cid=ecf05e47f1c1b36712e2d00d6dd29a323ab0f8ba2e6f9523&rid=giphy.gif&ct=g");
-
     align-items: center;
 }
 
@@ -176,7 +170,6 @@ h6 {
     background-color: #f2e5dc;
     box-shadow: 0px 0px 20px 4px #3d2e6b;
     border-style: inset;
-
 }
 
 .game {
@@ -188,7 +181,6 @@ h6 {
     width: 385px;
     box-shadow: 0px 0px 20px 4px #3d2e6b;
     border-style: inset;
-
 }
 
 /*Game*/
@@ -286,7 +278,7 @@ h6 {
     flex-wrap: wrap;
     padding: 75px 0 75px 0;
     margin: 120px 0 100px 0;
-    box-shadow: 0px 1px 20px 20px #4b3c76;
+    box-shadow: 0 1px 20px 20px #4b3c76;
     background-image: url("https://media4.giphy.com/media/9bTjZrytydVRK/giphy.gif?cid=ecf05e479nv4mrv7e2b65f994z45mmd0ja8gwwmtz5d18oaf&rid=giphy.gif&ct=g");
 
 }
@@ -303,8 +295,6 @@ h6 {
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
-
-
 }
 
 .card {
