@@ -1,4 +1,4 @@
-[
+export const userJSON =`[
   {
     "name": "Skynet",
     "password": "tenyks",
@@ -34,4 +34,4 @@
     "password": "nodnarb",
     "user_role": "Admin"
   }
-]
+]`
