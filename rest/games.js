@@ -1,4 +1,4 @@
-[
+export const gamesJSON = `[
   {
     "game_id": 1,
     "name": "Skynet",
@@ -83,4 +83,4 @@
     "is_win": true,
     "start_time": "2022-05-26 14:36:22.262000"
   }
-]
+]`
