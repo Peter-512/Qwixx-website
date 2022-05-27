@@ -369,9 +369,7 @@ cubic-bezier(0.4, 0.03, 0.5, 0.9);
     color:#f2e5dc;
 
 }
-span{
-    color:#f2e5dc;
-}
+
 
 .wrapper {
     display: flex;
@@ -386,6 +384,10 @@ span{
     width: 500px;
     border-radius: 5px;
 
+}
+
+span{
+    color:#f2e5dc;
 }
 
 .wrapper .title {
