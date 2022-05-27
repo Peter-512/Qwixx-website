@@ -1,55 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Game Statistics</title>
-	<link rel="stylesheet" href="../styles.css">
-	<link rel="icon" type="favicon" href="../resources/logo2.png">
-	<link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/7800fa5375.js" crossorigin="anonymous"></script>
-	<script src="../scripts/loginButton.js" defer></script>
+    <meta charset="UTF-8">
+    <title>Game Statistics</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="favicon" href="../resources/logo2.png">
+    <link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7800fa5375.js" crossorigin="anonymous"></script>
+    <script src="../scripts/loginButton.js" defer></script>
 </head>
 <body>
 <header>
-	<a id="login-button" class="login" href="../pages/login.html">Login</a>
-	<nav class="navbar">
-		<img class="logo" src="../resources/logo2.png" alt="logo">
-		<div class="menu">
-			<ul id="nav-list" class="list">
-				<li><a href="../index.html">
-					<button class="button" value="Home"> Home</button>
-				</a></li>
-				<li><a href="game.html">
-					<button class="button" value="Game"> Game</button>
-				</a></li>
-				<li><a href="about_us.html">
-					<button class="button" value="About Us"> About Us</button>
-				</a></li>
-				<li class><a href = "csr_page.html">
-					<button class = "button" value = "CSR"> CSR</button>
-				</a></li>
-			</ul>
-		</div>
+    <a id="login-button" class="login" href="../pages/login.html">Login</a>
+    <nav class="navbar">
+        <img class="logo" src="../resources/logo2.png" alt="logo">
+        <div class="menu">
+            <ul id="nav-list" class="list">
+                <li><a href="../index.html">
+                    <button class="button" value="Home"> Home</button>
+                </a></li>
+                <li><a href="game.html">
+                    <button class="button" value="Game"> Game</button>
+                </a></li>
+                <li><a href="about_us.html">
+                    <button class="button" value="About Us"> About Us</button>
+                </a></li>
+                <li class><a href="csr_page.html">
+                    <button class="button" value="CSR"> CSR</button>
+                </a></li>
+            </ul>
+        </div>
 
 	</nav>
 </header>
 <main>
-     <section class="statistics">
-        <div class="static" id="static" method="post">
-			<form action="">
-
-			</form>
-		</div>
-	 </section>
+    <section class="login_box">
+        <div id="error"></div>
+        <div class="wrapper">
+            <div class="title">
+                <span>Statistics</span>
+            </div>
+            <form id="Statistics">
+                <div class="row">
+                    <input id="id" type="number" placeholder="ID" required>
+                </div>
+                <div class="row">
+                    <input id="playerName" type="text" placeholder="Name" required>
+                </div>
+                <div class="row">
+                    <input id="Score" type="number" placeholder="score" required>
+                    <select id="cars">
+                        <option value="choose" selected disabled></option>
+                        <option value="above">Above</option>
+                        <option value="equal">Equal</option>
+                        <option value="under">Under</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+    </section>
 </main>
 
 <footer>
-	<div class="copyright">
-		<p>&copy;Group 8</p>
-		<a href="https://gitlab.com/kdg-ti/integration-1.2/2021-2022/team-8/qwixx.git"><i class="fa fa-gitlab"></i></a>
-		<a href="../pages/about_us.html"><i class="fa fa-info-circle"></i></a>
+    <div class="copyright">
+        <p>&copy;Group 8</p>
+        <a href="https://gitlab.com/kdg-ti/integration-1.2/2021-2022/team-8/qwixx.git"><i class="fa fa-gitlab"></i></a>
+        <a href="../pages/about_us.html"><i class="fa fa-info-circle"></i></a>
 
-	</div>
+    </div>
 </footer>
 </body>
 </html>
