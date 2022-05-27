@@ -24,6 +24,7 @@ function getInfo() {
 	for (let i = 0; i < users.length; i++) {
 		if (username === users[i].name && password === users[i].password) {
 			console.log(`${username} is logged in`);
+			localStorage.setItem('name', username)
 		} else {
 			console.log("incorrect username or password.");
 		}
