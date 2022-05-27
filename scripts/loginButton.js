@@ -6,7 +6,11 @@ if (window.localStorage.getItem("NAME") !== null) {
 	const li = document.createElement("li");
 	li.id = "stats-button";
 	const a = document.createElement("a");
-	a.href = "../pages/game_statistics.html";
+	if (document.URL.includes("index.html")) {
+		a.href = "pages/game_statistics.html";
+	} else {
+		a.href = '../pages/game_statistics.html'
+	}
 	const button = document.createElement("button");
 	button.classList.add("button");
 	button.value = "Game Statistics";
