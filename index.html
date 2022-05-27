@@ -10,29 +10,27 @@
 	<link rel="stylesheet" href="styles.css">
 	<link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/7800fa5375.js" crossorigin="anonymous"></script>
+	<script src="../scripts/loginButton.js" defer></script>
 </head>
 <body>
 
 <header>
-	<a class="login" href="pages/login.html">Login / Sign In</a>
+	<a id="login-button" class="login" href="pages/login.html">Login</a>
 	<nav class="navbar">
 		<img class="logo" src="resources/logo2.png" alt="logo">
 		<div class="menu">
-			<ul class="list">
+			<ul id="nav-list" class="list">
 				<li class="current_page"><a href="index.html">
 					<button class="button" value="Home"> Home</button>
 				</a></li>
 				<li><a href="pages/game.html">
 					<button class="button" value="Game"> Game</button>
 				</a></li>
-				<li><a href="pages/game_statistics.html">
-					<button class="button" value="Game Statistics"> Game Statistics</button>
-				</a></li>
 				<li><a href="pages/about_us.html">
 					<button class="button" value="About Us"> About Us</button>
 				</a></li>
 				<li class><a href = "pages/csr_page.html">
-					<button class = "button" value = "Csr"> Csr</button>
+					<button class = "button" value = "CSR"> CSR</button>
 				</a></li>
 			</ul>
 		</div>
@@ -44,15 +42,14 @@
 
 	<section class="info_main">
 		<div class="info">
-			<h4>
+			<p class="p_info">
 				Qwixx is a quick playing family dice game in which each decision is crucial.
 				We created a version where you can easily download and play right away on your computer.
 				We wish you best of luck!
-				<br><br> To Download Now !!
 				<br><br> <a href="pages/game.html">
-				<button class="button" type="Download" value="download" href="">Download</button>
+				<a class="link_about" type="Download" value="download" href="pages/game.html">Learn more...</a>
 			</a>
-			</h4>
+			</p>
 		</div>
 
 		<div class="game">

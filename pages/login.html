@@ -7,27 +7,27 @@
 	<link rel="icon" type="favicon" href="../resources/logo2.png">
 	<link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/7800fa5375.js" crossorigin="anonymous"></script>
-	<script defer src="../script.js"></script>
-	<script type="text/javascript" src="../rest/users.js"></script>
+	<script type="module" src="../scripts/login.js" defer></script>
+	<script src="../scripts/loginButton.js" defer></script>
 </head>
 <body>
 <header>
-	<a class="login" href="../pages/login.html">Login / Sign In</a>
+	<a id="login-button" class="login" href="../pages/login.html">Login</a>
 	<nav class="navbar">
 		<img class="logo" src="../resources/logo2.png" alt="logo">
 		<div class="menu">
-			<ul class="list">
+			<ul id="nav-list" class="list">
 				<li><a href="../index.html">
 					<button class="button" value="Home"> Home</button>
 				</a></li>
 				<li><a href="game.html">
 					<button class="button" value="Game"> Game</button>
 				</a></li>
-				<li><a href="../pages/game_statistics.html">
-					<button class="button" value="Game Statistics"> Game Statistics</button>
-				</a></li>
 				<li><a href="about_us.html">
 					<button class="button" value="About Us"> About Us</button>
+				</a></li>
+				<li class><a href = "csr_page.html">
+					<button class = "button" value = "CSR"> CSR</button>
 				</a></li>
 			</ul>
 		</div>
@@ -41,7 +41,7 @@
 			<div class="title">
 				<span>Login Form</span>
 			</div>
-			<form action="script.js" method="post">
+			<form id="login" method="post">
 				<div class="row">
 					<i class="fas fa-user"></i>
 					<input id="username" type="text" placeholder="Username" required>
