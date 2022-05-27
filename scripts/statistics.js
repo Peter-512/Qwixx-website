@@ -10,6 +10,8 @@ const username = document.getElementById("username");
 const password = document.getElementById("password");
 
 
+const Statistics =document.querySelector("[Statistics]")
+
 function getgame(){
     let name = username.value;
     let pw = password.value;
@@ -22,3 +24,11 @@ function getgame(){
 
 
 }
+
+
+
+
+
+const games = JSON.parse(gamesJSON).filter(function(){
+
+});

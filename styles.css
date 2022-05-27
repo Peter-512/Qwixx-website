@@ -350,6 +350,7 @@ cubic-bezier(0.4, 0.03, 0.5, 0.9);
     display: flex;
     justify-content: flex-end;
     margin: 10px;
+    color:#f2e5dc;
 }
 
 .login_box {
@@ -363,15 +364,26 @@ cubic-bezier(0.4, 0.03, 0.5, 0.9);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    color:#f2e5dc;
+
+}
+span{
+    color:#f2e5dc;
 }
 
 .wrapper {
     display: flex;
     flex-wrap: wrap;
-    background: #f2e5dc;
-    box-shadow: 6px 2px 20px 1px #3d2e6b;
-    width: 380px;
+    flex-direction: column;
+    align-items: center;
+
+    background: rgba(255,255,255,0.01);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 1px 20px 2px #261556;
+    color:#f2e5dc;
+    width: 500px;
     border-radius: 5px;
+
 }
 
 .wrapper .title {
