@@ -1,7 +1,5 @@
-import {gamesJSON} from "../rest/games.js";
 import {usersJSON} from "../rest/users.js";
 
-const games = JSON.parse(gamesJSON);
 const users = JSON.parse(usersJSON);
 
 const username = document.getElementById("username");
@@ -20,12 +18,12 @@ form.addEventListener("submit", e => {
 
 
 function getInfo() {
-	let name = document.getElementById("username").value;
-	let password = document.getElementById("password").value;
+	let name = username.value;
+	let pw = password.value;
 
 	for (let i = 0; i < users.length; i++) {
-		if (name === users[i].username && password === users[i].password) {
-			console.log(username + "is logged in");
+		if (name === users[i].name && pw === users[i].password) {
+			console.log(`${name} is logged in`);
 		} else {
 			console.log("incorrect username or password.");
 		}
