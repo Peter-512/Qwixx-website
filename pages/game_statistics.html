@@ -40,16 +40,17 @@
             <div class="title">
                 <span>Statistics</span>
             </div>
-            <form id="Statistics">
+            <form id="Statistics"><br>
+                Please filter on one of these attributes.
                 <div class="row">
-                    <input id="id" type="number" placeholder="ID" required>
+                    <label for="id"></label><input id="id" type="number" placeholder="ID" >
                 </div>
                 <div class="row">
-                    <input id="playerName" type="text" placeholder="Name" required>
+                    <label for="playerName"></label><input id="playerName" type="text" placeholder="Name">
                 </div>
                 <div class="row">
-                    <input id="Score" type="number" placeholder="score" required>
-                    <select id="cars">
+                    <label for="Score"></label><input id="Score" type="number" placeholder="score">
+                    <label for="cars"></label><select id="cars">
                         <option value="choose" selected disabled></option>
                         <option value="above">Above</option>
                         <option value="equal">Equal</option>
@@ -57,17 +58,17 @@
                     </select>
                 </div>
                 <div class="row">Win?<br>
-                    <select id="Win">
+                    <label for="Win"></label><select id="Win">
                         <option value="yes">yes</option>
                         <option value="no">no</option>
                     </select>
                 </div>
                 <div class="row">Date
-                    <select id="beforeAfter">
+                    <label for="beforeAfter"></label><select id="beforeAfter">
                         <option value="before">before</option>
                         <option value="after">after</option>
                     </select>
-                    <input id="date" type="date" required>
+                    <label for="date"></label><input id="date" type="date">
                 </div>
                 <div class="row_button">
                     <button type="submit">Search</button>
