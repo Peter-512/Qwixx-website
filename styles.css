@@ -298,6 +298,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 48px;
 
 }
 
@@ -306,7 +307,7 @@ ul {
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
-
+    padding-bottom: 60px;
 }
 
 .card {
