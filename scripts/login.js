@@ -6,18 +6,7 @@ const userNameElement = document.getElementById("username");
 const passwordElement = document.getElementById("password");
 const formElement = document.getElementById("login");
 
-formElement.addEventListener("submit", e => {
-	e.preventDefault();
-	getInfo(userNameElement, passwordElement);
-});
-
-
-// const {userJSON} = require("user");
-// const mydata = JSON.parse(userJSON)
-// console.log(mydata)
-
-
-function verify(name, pw) {
+const verify = (name, pw) => {
 	let username = name.value;
 	let password = pw.value;
 
@@ -29,3 +18,9 @@ function verify(name, pw) {
 		}
 	}
 }
+
+formElement.addEventListener("submit", e => {
+	e.preventDefault();
+	verify(userNameElement, passwordElement);
+	window.location.href = "../index.html";
+});
