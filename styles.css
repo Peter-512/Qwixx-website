@@ -57,8 +57,10 @@ p{
 
 .current_page {
     box-shadow: 0 0 20px 4px #4e60e0;
+}
 
-
+ul {
+    padding: 0;
 }
 
 .button {
