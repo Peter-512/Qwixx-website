@@ -8,11 +8,13 @@ const formElement = document.getElementById("login");
 
 formElement.addEventListener("submit", e => {
 	e.preventDefault();
-	verify(userNameElement, passwordElement);
-	window.location.href = "../index.html";
+	getInfo(userNameElement, passwordElement);
 });
 
 
+// const {userJSON} = require("user");
+// const mydata = JSON.parse(userJSON)
+// console.log(mydata)
 
 
 function verify(name, pw) {

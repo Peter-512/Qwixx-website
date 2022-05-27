@@ -24,6 +24,10 @@ a:active {
     color: #dbeaff;
 }
 
+.link_about:hover{
+    color:blue;
+}
+
 li {
     margin: 30px 30px;
     font-size: large;
@@ -169,23 +173,23 @@ body {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    margin: 15px;
+    margin: 60px;
     padding: 20px;
-    /*background-color: #f2e5dc;*/
     background: rgba(255,255,255,0.1);
     backdrop-filter: blur(8px);
-    box-shadow: 0 1px 20px 7px #4b3c76;
+    box-shadow:  0 1px 20px 7px #261556;
     color: #dbeaff;
+    font-size: 23px;
 }
 
 .game {
     display: flex;
     flex-direction: row;
     padding: 20px;
-    margin: 14px;
+    margin: 40px;
     height: 385px;
     width: 385px;
-    box-shadow: 0 1px 20px 7px #4b3c76;
+    box-shadow:  0 1px 20px 7px #261556;
 
 }
 
@@ -207,8 +211,9 @@ body {
 }
 
 .object {
-    background: #f2e5dc;
-    box-shadow: 6px 2px 20px 1px #3d2e6b;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(8px);
+    box-shadow:  0 1px 20px 7px #261556;
     margin: 58px;
     padding: 41px;
 
@@ -220,8 +225,9 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    background: #f2e5dc;
-    box-shadow: 6px 2px 20px 1px #3d2e6b;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(8px);
+    box-shadow:  0 1px 20px 7px #261556;
     margin: 58px;
     padding: 41px;
 
@@ -232,8 +238,9 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background: #f2e5dc;
-    box-shadow: 6px 2px 20px 1px #3d2e6b;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(8px);
+    box-shadow:  0 1px 20px 7px #261556;
     margin: 58px;
     padding: 41px;
 
@@ -275,6 +282,33 @@ body {
         margin-left: calc(-728px * 3);
     }
 }
+
+/*static*/
+
+.statistics{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0 1px 20px 7px #4b3c76;
+    background-image: url("https://media2.giphy.com/media/Y3MLVPRtnzpbygOqef/giphy.gif?cid=ecf05e47zv7yfqusa7a98ntsmbe6nbr54r7copj296xa5cxn&rid=giphy.gif&ct=g");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.static{
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(8px);
+    box-shadow:  0 1px 20px 7px #261556;
+    margin: 58px;
+    padding: 41px;
+
+}
+
+
 
 
 /*About us*/
@@ -397,7 +431,11 @@ cubic-bezier(0.4, 0.03, 0.5, 0.9);
     /* other styling */
     background-color: #f2e5dc;
     border-radius: 10px;
-    color: black;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(8px);
+    box-shadow:  0 1px 20px 7px #261556;
+    color: #dbeaff;
+
 }
 
 .main_idea {
