@@ -2,13 +2,13 @@ import {usersJSON} from "../rest/users.js";
 
 const users = JSON.parse(usersJSON);
 
-const username = document.getElementById("username");
-const password = document.getElementById("password");
-const form = document.getElementById("login");
+const userNameElement = document.getElementById("username");
+const passwordElement = document.getElementById("password");
+const formElement = document.getElementById("login");
 
-form.addEventListener("submit", e => {
+formElement.addEventListener("submit", e => {
 	e.preventDefault();
-	getInfo(username, password);
+	getInfo(userNameElement, passwordElement);
 });
 
 
@@ -18,12 +18,13 @@ form.addEventListener("submit", e => {
 
 
 function getInfo() {
-	let name = username.value;
-	let pw = password.value;
+	let username = userNameElement.value;
+	let password = passwordElement.value;
 
 	for (let i = 0; i < users.length; i++) {
-		if (name === users[i].name && pw === users[i].password) {
-			console.log(`${name} is logged in`);
+		if (username === users[i].name && password === users[i].password) {
+			console.log(`${username} is logged in`);
+			localStorage.setItem('name', username)
 		} else {
 			console.log("incorrect username or password.");
 		}
