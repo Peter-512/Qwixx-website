@@ -1,4 +1,4 @@
-export const userJSON =`[
+export const usersJSON =`[
   {
     "name": "Skynet",
     "password": "tenyks",
