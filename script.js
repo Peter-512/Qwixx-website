@@ -10,15 +10,14 @@ form.addEventListener('submit',(e) =>{
 
 
 
-// const username = JSON.parse(username)
-// const password = JSON.parse(password)
+const username = JSON.parse(username)
+const password = JSON.parse(password)
 
-//
-//
+
 // const {userJSON} = require("user");
 // const mydata = JSON.parse(userJSON)
 // console.log(mydata)
-//
+
 
 
 
