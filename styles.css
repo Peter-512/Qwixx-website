@@ -54,8 +54,9 @@ h6 {
     height: 3rem;
     width: 9rem;
     border: 6px solid #3300ff;
-    background: rgba(0,0,0,0.01);
+    background: rgba(0, 0, 0, 0.01);
     backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     color: #835cbd;
     font-weight: bold;
     font-family: 'Arbutus Slab', serif;
@@ -301,6 +302,7 @@ body {
     position: relative;
     transition: transform .75s;
     -moz-transition: tranform .075s;
+    -webkit-transition: transform .75s;
 cubic-bezier(0.4, 0.03, 0.5, 0.9);
 }
 
@@ -313,7 +315,7 @@ cubic-bezier(0.4, 0.03, 0.5, 0.9);
     object-fit: cover;
     outline: 7px solid #0a035a;
     backface-visibility: hidden;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
 }
 
@@ -387,7 +389,7 @@ cubic-bezier(0.4, 0.03, 0.5, 0.9);
     color: black;
 }
 
-.main_idea{
+.main_idea {
     margin-left: 50px;
 }
 
@@ -401,7 +403,8 @@ cubic-bezier(0.4, 0.03, 0.5, 0.9);
     margin: 50px 20%;
     justify-content: space-evenly;
     align-items: center;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border-radius: 25px;
 }
