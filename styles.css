@@ -20,10 +20,16 @@ a:active {
     color: blue;
 }
 
+.link_about{
+    color: #dbeaff;
+}
+
 li {
     margin: 30px 30px;
     font-size: large;
 }
+
+
 
 h1 {
     font-size: 60px;
@@ -37,6 +43,10 @@ h2 {
 
 h3 {
     font-size: 35px;
+}
+
+h4{
+    color: #e1e1e1;
 }
 
 h6 {
@@ -56,7 +66,7 @@ h6 {
     border: 6px solid #3300ff;
     background: rgba(0,0,0,0.01);
     backdrop-filter: blur(4px);
-    color: #835cbd;
+    color: #ded8e5;
     font-weight: bold;
     font-family: 'Arbutus Slab', serif;
     font-size: 15px;
@@ -162,8 +172,11 @@ body {
     flex-wrap: wrap;
     margin: 15px;
     padding: 20px;
-    background-color: #f2e5dc;
+    /*background-color: #f2e5dc;*/
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(8px);
     box-shadow: 0 1px 20px 7px #4b3c76;
+    color: #dbeaff;
 }
 
 .game {
