@@ -45,10 +45,19 @@ h2 {
     text-shadow:2px 2px #FF0000 ;
 }
 
+h3{
+    color: #dbeaff;
+    text-shadow: 2px 2px #0a035a;
+}
 
+p{
+    color: #dbeaff;
+    text-shadow: 2px 2px #0a035a;
+}
 
 .current_page {
     box-shadow: 0 0 20px 4px #4e60e0;
+
 
 }
 
@@ -111,10 +120,6 @@ h2 {
     color: inherit;
 }
 
-ul {
-    padding: 0;
-}
-
 .list {
     list-style: none;
     display: flex;
@@ -135,10 +140,6 @@ ul {
     margin: 58px;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
 
 /*Home page*/
 
@@ -358,6 +359,13 @@ cubic-bezier(0.4, 0.03, 0.5, 0.9);
 .team_member:nth-child(2),
 .card:hover {
     transform: rotate3d(1, 1, 0, 180deg);
+}
+
+#middle{
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
 }
 
 
