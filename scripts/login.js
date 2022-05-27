@@ -9,7 +9,7 @@ const formElement = document.getElementById("login");
 formElement.addEventListener("submit", e => {
 	e.preventDefault();
 	verify(userNameElement, passwordElement);
-	formElement.submit();
+	window.location.href = "../index.html";
 });
 
 
@@ -23,6 +23,7 @@ function verify(name, pw) {
 		if (username === users[i].name && password === users[i].password) {
 			window.localStorage.setItem("NAME", username);
 			console.log(`${username} is logged in`);
+			break;
 		}
 	}
 }
