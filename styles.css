@@ -6,7 +6,7 @@ body {
     font-family: 'Arbutus Slab', serif;
 }
 
-
+/*general*/
 a {
     text-decoration: none;
     color: #21007e;
@@ -69,6 +69,7 @@ p{
     background: rgba(0,0,0,0.01);
     backdrop-filter: blur(4px);
     color: #dbeaff;
+    text-shadow: 2px 2px #4b011e;
     -webkit-backdrop-filter: blur(4px);
     font-weight: bold;
     font-family: 'Arbutus Slab', serif;
@@ -274,8 +275,6 @@ p{
         margin-left: calc(-728px * 3);
     }
 }
-
-
 
 
 
