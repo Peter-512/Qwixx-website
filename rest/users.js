@@ -1,4 +1,4 @@
-export const usersJSON =`[
+export const usersJSON = `[
   {
     "name": "Skynet",
     "password": "tenyks",
@@ -33,5 +33,40 @@ export const usersJSON =`[
     "name": "Brandon",
     "password": "nodnarb",
     "user_role": "Admin"
+  },
+  {
+    "name": "Filip",
+    "password": "pilif",
+    "user_role": "Player"
+  },
+  {
+    "name": "Seif",
+    "password": "fies",
+    "user_role": "Player"
+  },
+  {
+    "name": "Elina",
+    "password": "anile",
+    "user_role": "Player"
+  },
+  {
+    "name": "hello",
+    "password": "olleh",
+    "user_role": "Player"
+  },
+  {
+    "name": "heyo",
+    "password": "oyeh",
+    "user_role": "Player"
+  },
+  {
+    "name": "help",
+    "password": "pleh",
+    "user_role": "Player"
+  },
+  {
+    "name": "Charlotte",
+    "password": "ettolrahc",
+    "user_role": "Player"
   }
 ]`
