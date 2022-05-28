@@ -206,8 +206,9 @@ ul {
 }
 
 .object {
-    background: rgba(255,255,255,0.01);
-    backdrop-filter: blur(8px);
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     box-shadow: 0 1px 20px 2px #261556;
     margin: 58px;
     padding: 41px;
@@ -220,8 +221,9 @@ ul {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    background: rgba(255,255,255,0.01);
-    backdrop-filter: blur(8px);
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     box-shadow: 0 1px 20px 2px #261556;
     margin: 58px;
     padding: 41px;
@@ -233,8 +235,9 @@ ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background: rgba(255,255,255,0.01);
-    backdrop-filter: blur(8px);
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     box-shadow: 0 1px 20px 2px #261556;
     margin: 58px;
     padding: 41px;
@@ -383,8 +386,9 @@ table, th, td{
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    background: rgba(255,255,255,0.01);
-    backdrop-filter: blur(8px);
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     box-shadow: 0 1px 20px 2px #261556;
     color:#f2e5dc;
     width: 500px;
