@@ -128,7 +128,7 @@ statsForm.addEventListener("submit", event => {
 
 		switch (scoreSelector) {
 			case "above": {
-				filteredGames = filteredGames.filter(game => parseInt(score) > game.total_score);
+				filteredGames = filteredGames.filter(game => parseInt(score) < game.total_score);
 				break;
 			}
 			case "equal": {
@@ -136,7 +136,7 @@ statsForm.addEventListener("submit", event => {
 				break;
 			}
 			case "under": {
-				filteredGames = filteredGames.filter(game => parseInt(score) < game.total_score);
+				filteredGames = filteredGames.filter(game => parseInt(score) > game.total_score);
 				break;
 			}
 			default:
