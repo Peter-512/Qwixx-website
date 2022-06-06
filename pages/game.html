@@ -25,8 +25,8 @@
 				<li><a href="about_us.html">
 					<button class="button" value="About Us"> About Us</button>
 				</a></li>
-				<li class><a href = "csr_page.html">
-					<button class = "button" value = "CSR"> CSR</button>
+				<li class><a href="csr_page.html">
+					<button class="button" value="CSR"> CSR</button>
 				</a></li>
 			</ul>
 		</div>
@@ -37,47 +37,85 @@
 	<section class="game_rules">
 		<div class="object">
 			<h2>Object of the game</h2><br>
-			<p>Score the most points by crossing out as many numbers in the four color-rows as possible while avoiding
-				penalty points.</p>
+			<p>Score the most points by crossing out as many numbers in the four rows as possible while avoiding
+			   penalty points.</p>
 		</div>
 		<div class="rules">
 			<h2>Game Play</h2>
 			<ul class="rule">
-				<li>The first player to roll a 6 takes on the role of "active player". The active player rolls all six
-					dice. The following two actions are now carried out in order,
-					always one after the other:<br>
-					The active player adds the two white dice together and declares the result aloud.
-					All players may then cross out the number that the active player declared in any (but only one) of
-					the color-rows (they are not obligated).
+				<li>The players take alternating "active" turns. The active player rolls all six
+					dice. The following two actions are now carried out in order, always one after the other:
 				</li>
 				<li>
-					The active player (but not the others) can then add one of the white dice to any of the colored dice
-					and cross off the number corresponding to this total in the color-row corresponding to the color of
-					the chosen die.
+					The two public dice with the black border are added together.
+					All players may (but do <em>not</em> have to) then cross out the number of that result in any one of
+					the rows.
 				</li>
-				<h2>Penalties</h2>
-				<li>If the active player does not cross out at least one number after the two acts, he must cross out
-					one of the penalty boxes. At the end of the game, each penalty box is worth -5 points.
-					(Non-active players do not receive a penalty for not crossing out a number.)
-				</li>
-				<h2>Locking a Row</h2>
 				<li>
-					To cross out the number at the far right end of a color-row (red 12, yellow 12, green 2, blue 2),
-					you must first cross out at least five numbers from that row.
-					If you cross out the number on the far right, you must also cross out the lock symbol immediately
-					adjacent to it. This means that the color-row is now locked for all participants, and that numbers
-					in this color may no longer be crossed out in subsequent rounds.
-					The relevant color die is removed from the game right away.
+					The active player (but not the others) can then add one of the public dice to any of the colored
+					dice and cross off the number corresponding to this total in the row corresponding to the
+					color of the chosen colored die.
 				</li>
-				<h2>PS...</h2>
-				<li>
-					If a row is locked during the initial action, additional players could cross out the number on the
-					extreme right and lock the same color-row at the same time.
-					These players must have crossed out at least five digits in that row earlier.
-					<br><br> The number of crosses designated in that color-row is increased by the cross on the lock.
-				</li>
-				<button class="button" type="Download" value="download" href="../resources/Qwixx.zip">Download</button>
 			</ul>
+
+			<h2>Penalties</h2>
+			<ul class="rule">
+				<li>
+					If the active player does not cross out at least one number after the two acts, he must take
+					a penalty. Each penalty is worth -5 points.
+				</li>
+			</ul>
+
+			<h2>Crossing out a number</h2>
+			<ul class="rule">
+				<li>
+					When a number is crossed out, all the numbers to the left of that number in the same row get
+					disabled,
+					meaning the player won't be able to cross them out anymore.
+				</li>
+			</ul>
+
+			<h2>Locking a Row</h2>
+			<ul class="rule">
+				<li>
+					To cross out the number at the far right end of a row (red 12, yellow 12, green 2, blue 2),
+					you must first cross out at least five numbers in that row.
+				</li>
+				<li>
+					If you cross out the number on the far right, you must also cross out the lock symbol immediately
+					adjacent to it. This means that the row is now locked for all players, and that numbers
+					in this color may no longer be crossed out in subsequent rounds.
+				</li>
+				<li>
+					Additionally, the same colored die is removed from the game as well, as it serves no purpose
+					anymore.
+				</li>
+			</ul>
+
+			<h2>Scoring</h2>
+			<ul class="rule">
+				<li>
+					Every time a number gets crossed out, the player gains points in the amount of numbers he now has crossed out in that row.
+				</li>
+			</ul>
+
+			<h2>End</h2>
+			<ul class="rule">
+
+			</ul>
+
+			<h2>PS...</h2>
+			<ul class="rule">
+				<li>
+					If a row is locked during the public action, the other player can also cross out the number on the
+					extreme right and lock that row at the same time.
+					That player must also have crossed out at least five digits in that row earlier.
+				</li>
+			</ul>
+
+			<a download="qwixx" href="../resources/Qwixx.zip">
+				<button class="button">Download</button>
+			</a>
 
 		</div>
 		<div class="insight">
