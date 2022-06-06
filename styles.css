@@ -201,8 +201,18 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
 
+.game_rules p {
+    align-items: flex-start;
+}
 
+.game_rules ul {
+    margin: 0;
+}
+
+.game_rules li {
+    margin: 15px;
 }
 
 .object {
