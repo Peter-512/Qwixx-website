@@ -547,7 +547,6 @@ span {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-
 }
 
 .com {
@@ -562,7 +561,14 @@ span {
     margin: 58px;
     padding: 41px;
     color: #dbeaff;
+    display: flex;
+    flex-direction: column;
+}
 
+.project a {
+    align-self: center;
+    opacity: 10%;
+    margin-bottom: 2em;
 }
 
 
