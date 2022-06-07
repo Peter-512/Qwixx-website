@@ -20,12 +20,12 @@ a:active {
     color: blue;
 }
 
-.link_about{
+.link_about {
     color: #dbeaff;
 }
 
-.link_about:hover{
-    color:blue;
+.link_about:hover {
+    color: blue;
 }
 
 li {
@@ -36,21 +36,21 @@ li {
 h1 {
     font-size: 60px;
     color: #dbeaff;
-    text-shadow:2px 2px #FF0000 ;
+    text-shadow: 2px 2px #FF0000;
 }
 
 h2 {
     font-size: 40px;
     color: #dbeaff;
-    text-shadow:2px 2px #FF0000 ;
+    text-shadow: 2px 2px #FF0000;
 }
 
-h3{
+h3 {
     color: #dbeaff;
     text-shadow: 2px 2px #0a035a;
 }
 
-p{
+p {
     color: #dbeaff;
     text-shadow: 2px 2px #0a035a;
 }
@@ -68,7 +68,7 @@ ul {
     height: 3rem;
     width: 9rem;
     border: 6px solid #3300ff;
-    background: rgba(0,0,0,0.01);
+    background: rgba(0, 0, 0, 0.01);
     backdrop-filter: blur(4px);
     color: #dbeaff;
     text-shadow: 2px 2px #4b011e;
@@ -170,7 +170,7 @@ ul {
     flex-wrap: wrap;
     margin: 60px;
     padding: 20px;
-    background: rgba(255,255,255,0.01);
+    background: rgba(255, 255, 255, 0.01);
     backdrop-filter: blur(8px);
     box-shadow: 0 1px 20px 2px #261556;
     color: #dbeaff;
@@ -203,6 +203,26 @@ ul {
     background-attachment: fixed;
 }
 
+.flex-wrapper {
+    display: flex;
+}
+
+.flex-wrapper img {
+    width: 50%;
+    aspect-ratio: 16/10;
+}
+
+@media screen and (max-width: 800px) {
+    .flex-wrapper {
+        flex-direction: column;
+    }
+
+    .flex-wrapper img {
+        width: 80%;
+        align-self: center;
+    }
+}
+
 .game_rules ul {
     margin: 0;
     align-self: flex-start;
@@ -229,7 +249,7 @@ video {
 }
 
 .object {
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     box-shadow: 0 1px 20px 2px #261556;
@@ -244,7 +264,7 @@ video {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     box-shadow: 0 1px 20px 2px #261556;
@@ -258,7 +278,7 @@ video {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     box-shadow: 0 1px 20px 2px #261556;
@@ -303,7 +323,6 @@ video {
         margin-left: calc(-728px * 3);
     }
 }
-
 
 
 /*About us*/
@@ -365,7 +384,7 @@ cubic-bezier(0.4, 0.03, 0.5, 0.9);
     transform: rotate3d(1, 1, 0, 180deg);
 }
 
-#middle{
+#middle {
     display: flex;
 
     align-items: center;
@@ -378,7 +397,7 @@ cubic-bezier(0.4, 0.03, 0.5, 0.9);
     display: flex;
     justify-content: flex-end;
     margin: 10px;
-    color:#f2e5dc;
+    color: #f2e5dc;
 }
 
 .login_box {
@@ -392,11 +411,11 @@ cubic-bezier(0.4, 0.03, 0.5, 0.9);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    color:#f2e5dc;
+    color: #f2e5dc;
 
 }
 
-table, th, td{
+table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 5px;
@@ -409,18 +428,18 @@ table, th, td{
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     box-shadow: 0 1px 20px 2px #261556;
-    color:#f2e5dc;
+    color: #f2e5dc;
     width: 500px;
     border-radius: 5px;
 
 }
 
-span{
-    color:#f2e5dc;
+span {
+    color: #f2e5dc;
 }
 
 .wrapper .title {
@@ -446,7 +465,7 @@ span{
 }
 
 /*CSR*/
-.container{
+.container {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -461,10 +480,11 @@ span{
 
 
 }
-.container_csr{
-    background: rgba(255,255,255,0.1);
+
+.container_csr {
+    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px);
-    box-shadow:  0 1px 20px 2px #261556;
+    box-shadow: 0 1px 20px 2px #261556;
     margin: 58px;
     padding: 41px;
     color: #dbeaff;
@@ -472,14 +492,14 @@ span{
 }
 
 
-.main_idea_title{
+.main_idea_title {
     text-align: center;
 }
 
 
 /*static*/
 
-.statistics{
+.statistics {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -493,17 +513,17 @@ span{
     background-attachment: fixed;
 }
 
-.static{
-    background: rgba(255,255,255,0.1);
+.static {
+    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px);
-    box-shadow:  0 1px 20px 7px #261556;
+    box-shadow: 0 1px 20px 7px #261556;
     margin: 58px;
     padding: 41px;
 
 }
 
 /*project*/
-.project{
+.project {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -517,10 +537,10 @@ span{
     background-attachment: fixed;
 }
 
-.communication{
-    background: rgba(255,255,255,0.1);
+.communication {
+    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px);
-    box-shadow:  0 1px 20px 2px #261556;
+    box-shadow: 0 1px 20px 2px #261556;
     margin: 58px;
     padding: 41px;
     color: #dbeaff;
@@ -530,24 +550,20 @@ span{
 
 }
 
-.com{
-    height:470px;
+.com {
+    height: 470px;
     width: 779px;
 }
 
-.reflection{
-    background: rgba(255,255,255,0.1);
+.reflection {
+    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px);
-    box-shadow:  0 1px 20px 2px #261556;
+    box-shadow: 0 1px 20px 2px #261556;
     margin: 58px;
     padding: 41px;
     color: #dbeaff;
 
 }
-
-
-
-
 
 
 /*footnote*/
