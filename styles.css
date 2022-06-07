@@ -551,8 +551,8 @@ span {
 }
 
 .com {
-    height: 470px;
-    width: 779px;
+    width: 95%;
+    align-self: center;
 }
 
 .reflection {
